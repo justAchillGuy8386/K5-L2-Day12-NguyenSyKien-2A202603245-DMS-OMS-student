@@ -1,0 +1,42 @@
+﻿image,label,field,issue,mine,peer,verdict,guideline_rule,action
+D01.png,face,eye_left,khác giá trị (IoU=0.85),unknown,open,mine,4.4-1 / 4.5 / 4.6,Giữ nguyên mine (mắt bị kính/chói che thì unknown và bật occluded)
+D01.png,face,eye_right,khác giá trị (IoU=0.85),unknown,open,mine,4.4-1 / 4.5 / 4.6,Giữ nguyên mine (mắt bị kính/chói che thì unknown và bật occluded)
+D01.png,face13,left_eye_outer.occluded,khác cờ,1,0,mine,4.4-1 / 4.5 / 4.6,Giữ nguyên mine (mắt bị kính/chói che thì unknown và bật occluded)
+D01.png,face13,left_eye_inner.occluded,khác cờ,1,0,mine,4.4-1 / 4.5 / 4.6,Giữ nguyên mine (mắt bị kính/chói che thì unknown và bật occluded)
+D01.png,face13,left_eye_upper.occluded,khác cờ,1,0,mine,4.4-1 / 4.5 / 4.6,Giữ nguyên mine (mắt bị kính/chói che thì unknown và bật occluded)
+D01.png,face13,left_eye_lower.occluded,khác cờ,1,0,mine,4.4-1 / 4.5 / 4.6,Giữ nguyên mine (mắt bị kính/chói che thì unknown và bật occluded)
+D01.png,face13,right_eye_outer.occluded,khác cờ,1,0,mine,4.4-1 / 4.5 / 4.6,Giữ nguyên mine (mắt bị kính/chói che thì unknown và bật occluded)
+D01.png,face13,right_eye_inner.occluded,khác cờ,1,0,mine,4.4-1 / 4.5 / 4.6,Giữ nguyên mine (mắt bị kính/chói che thì unknown và bật occluded)
+D01.png,face13,right_eye_upper.occluded,khác cờ,1,0,mine,4.4-1 / 4.5 / 4.6,Giữ nguyên mine (mắt bị kính/chói che thì unknown và bật occluded)
+D01.png,face13,right_eye_lower.occluded,khác cờ,1,0,mine,4.4-1 / 4.5 / 4.6,Giữ nguyên mine (mắt bị kính/chói che thì unknown và bật occluded)
+D01.png,face13,mouth_right.occluded,khác cờ,1,0,mine,4.4-1 / 4.5 / 4.6,Giữ nguyên mine (mắt bị kính/chói che thì unknown và bật occluded)
+D02.png,face13,mouth_right.occluded,khác cờ,1,0,mine,4.6,Giữ nguyên mine (khóe miệng bên khuất góc nhìn có occluded=1)
+D04.png,face,eye_left,khác giá trị (IoU=0.66),open,unknown,mine,4.5 / 4.6,Giữ nguyên mine (mắt trái nhìn gương phải thấy rõ khe mắt mở)
+D04.png,face13,left_eye_outer.occluded,khác cờ,0,1,mine,4.5 / 4.6,Giữ nguyên mine (mắt trái nhìn gương phải thấy rõ khe mắt mở)
+D04.png,face13,left_eye_inner.occluded,khác cờ,0,1,mine,4.5 / 4.6,Giữ nguyên mine (mắt trái nhìn gương phải thấy rõ khe mắt mở)
+D04.png,face13,left_eye_upper.occluded,khác cờ,0,1,mine,4.5 / 4.6,Giữ nguyên mine (mắt trái nhìn gương phải thấy rõ khe mắt mở)
+D04.png,face13,left_eye_lower.occluded,khác cờ,0,1,mine,4.5 / 4.6,Giữ nguyên mine (mắt trái nhìn gương phải thấy rõ khe mắt mở)
+S02_ir.png,child_seat,occupied,khác giá trị (IoU=0.99),no,yes,mine,4.1 / 4.8,PEER sửa yes thành no (guideline cấm occupied=yes)
+S02_ir.png,child_seat,seat,khác giá trị (IoU=0.99),rear_right,rear_left,peer,4.4-3,"MINE sửa rear_right thành rear_left (ghế theo xe, camera nhìn lùi)"
+S02_rgb.png,child_seat,occupied,khác giá trị (IoU=0.99),no,yes,mine,4.1 / 4.8,PEER sửa yes thành no (guideline cấm occupied=yes)
+S02_rgb.png,child_seat,seat,khác giá trị (IoU=0.99),rear_right,rear_left,peer,4.4-3,"MINE sửa rear_right thành rear_left (ghế theo xe, camera nhìn lùi)"
+S03_ir.png,infant_seat,facing,khác giá trị (IoU=0.99),rear,front,ambiguous,4.1 / 4.8,Đưa vào câu hỏi leo thang; tạm giữ theo chuẩn an toàn (rear-facing)
+S03_rgb.png,infant_seat,facing,khác giá trị (IoU=0.99),rear,front,ambiguous,4.1 / 4.8,Đưa vào câu hỏi leo thang; tạm giữ theo chuẩn an toàn (rear-facing)
+S04_ir.png,face,eye_left,khác giá trị (IoU=0.81),unknown,open,mine,4.1 / 4.4-1,"Giữ nguyên mine (OMS chỉ cần box face, không thấy rõ thì unknown)"
+S04_ir.png,face,gaze_zone,khác giá trị (IoU=0.81),other,road,mine,4.1 / 4.4-1,"Giữ nguyên mine (OMS chỉ cần box face, không thấy rõ thì unknown)"
+S04_ir.png,face,glasses,khác giá trị (IoU=0.81),unknown,none,mine,4.1 / 4.4-1,"Giữ nguyên mine (OMS chỉ cần box face, không thấy rõ thì unknown)"
+S04_ir.png,child_seat,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,peer,4.1 / 4.8,MINE sửa child_seat thành infant_seat (nôi sơ sinh có quai vòm thấp)
+S04_ir.png,infant_seat,box,chỉ có ở peer (hoặc IoU thấp),,,peer,4.1 / 4.8,MINE sửa child_seat thành infant_seat (nôi sơ sinh có quai vòm thấp)
+S04_rgb.png,child_seat,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,peer,4.1 / 4.8,MINE sửa child_seat thành infant_seat (nôi sơ sinh có quai vòm thấp)
+S04_rgb.png,face,eye_left,khác giá trị (IoU=0.83),unknown,open,mine,4.1 / 4.4-1,"Giữ nguyên mine (OMS chỉ cần box face, không thấy rõ thì unknown)"
+S04_rgb.png,face,gaze_zone,khác giá trị (IoU=0.83),other,road,mine,4.1 / 4.4-1,"Giữ nguyên mine (OMS chỉ cần box face, không thấy rõ thì unknown)"
+S04_rgb.png,face,glasses,khác giá trị (IoU=0.83),unknown,none,mine,4.1 / 4.4-1,"Giữ nguyên mine (OMS chỉ cần box face, không thấy rõ thì unknown)"
+S04_rgb.png,infant_seat,box,chỉ có ở peer (hoặc IoU thấp),,,peer,4.1 / 4.8,MINE sửa child_seat thành infant_seat (nôi sơ sinh có quai vòm thấp)
+S05_ir.png,infant_seat,facing,khác giá trị (IoU=0.99),rear,front,ambiguous,4.1 / 4.8,Đưa vào câu hỏi leo thang; tạm giữ theo chuẩn an toàn (rear-facing)
+S05_rgb.png,infant_seat,facing,khác giá trị (IoU=0.99),rear,front,ambiguous,4.1 / 4.8,Đưa vào câu hỏi leo thang; tạm giữ theo chuẩn an toàn (rear-facing)
+S06_ir.png,infant_seat,facing,khác giá trị (IoU=0.98),rear,front,ambiguous,4.1 / 4.8,Đưa vào câu hỏi leo thang; tạm giữ theo chuẩn an toàn (rear-facing)
+S06_rgb.png,infant_seat,facing,khác giá trị (IoU=0.98),rear,front,ambiguous,4.1 / 4.8,Đưa vào câu hỏi leo thang; tạm giữ theo chuẩn an toàn (rear-facing)
+S08_ir.png,infant_seat,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,peer,4.1 / 4.8,MINE sửa infant_seat thành child_seat (ghế trẻ em có tựa lưng cao)
+S08_ir.png,child_seat,box,chỉ có ở peer (hoặc IoU thấp),,,peer,4.1 / 4.8,MINE sửa infant_seat thành child_seat (ghế trẻ em có tựa lưng cao)
+S08_rgb.png,infant_seat,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,peer,4.1 / 4.8,MINE sửa infant_seat thành child_seat (ghế trẻ em có tựa lưng cao)
+S08_rgb.png,child_seat,box,chỉ có ở peer (hoặc IoU thấp),,,peer,4.1 / 4.8,MINE sửa infant_seat thành child_seat (ghế trẻ em có tựa lưng cao)

@@ -1,0 +1,7 @@
+frame_id,source,phenomenon,affected_field,effect_on_label
+S01_ir,IR_sim,Không thấy dây an toàn trên áo màu sẫm do mất độ tương phản màu sắc,seatbelt,Giữ unknown thay vì đoán như trên ảnh RGB (không suy đoán dây an toàn)
+S04_ir,IR_sim,Mất hoàn toàn màu sắc của quần áo người ngồi ghế sau khiến khó phân biệt ranh giới với tựa ghế nỉ tối màu,person,"Cần tăng Brightness/Contrast trong CVAT để ôm sát viền cơ thể person, không đoán chi tiết"
+S07_ir,IR_sim,Chiếc cốc/hộp nhựa trên sàn xe mất màu sắc nhận diện so với bản RGB chỉ còn thấy khối sáng mờ,object,Xác định vật thể dựa vào hình khối học (type=other/cup) thay vì màu sắc
+D01,real_IR,Đèn LED hồng ngoại 940nm phản xạ mạnh trên tròng kính cận tạo đốm chói lóa che lấp vùng mắt,eye_left / eye_right,Ghi unknown cho cả hai mắt và bật cờ occluded=1 cho các điểm mí mắt face13
+D03,real_IR,Ánh sáng NIR làm điện thoại và cốc nước cầm trên tay mất màu sắc nhận diện chỉ thấy độ sáng xám đơn sắc,phone,Chỉ vẽ box phone khi thấy rõ cạnh viền hoặc màn hình chữ nhật phẳng không đoán vật khác là phone
+D04,real_IR,Góc quay đầu nghiêng nhìn gương phải khiến sống mũi che khuất mắt phải nhưng mắt trái nhìn thấy khe mở rõ dưới NIR,eye_left / eye_right,Mắt trái gán open (occluded=0); mắt phải gán unknown (occluded=1)
